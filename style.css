@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Main Layout */
+.main-container {
+    height: calc(100vh - 70px);
+    display: flex;
+}
+
+/* Left Section */
+.container-l {
+    width: 50%;
+    background-image: url('./background.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-logo {
+    width: 300px;
+}
+
+/* Right Section */
+.container-r {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.content-box {
+    padding: 40px;
+}
+
+.small-logo {
+    width: 40px;
+}
+
+.main-title {
+    font-size: 64px;
+    font-weight: 900;
+    margin-top: 50px;
+}
+
+.sub-title {
+    font-size: 32px;
+    font-weight: 900;
+    margin-top: 40px;
+}
+
+/* Buttons */
+.custom-btn {
+    width: 300px;
+    border-radius: 30px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.primary-btn {
+    background-color: rgb(29, 155, 240);
+}
+
+/* Divider */
+.divider {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.divider div {
+    height: 1px;
+    background-color: gray;
+    width: 130px;
+}
+
+.divider span {
+    margin: 0 10px;
+}
+
+/* Terms */
+.terms {
+    font-size: 12px;
+    color: gray;
+    margin-top: 10px;
+    width: 300px;
+}
+
+.terms a {
+    color: rgb(29, 155, 240);
+}
+
+/* Footer */
+.footer {
+    height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    background-color: black;
+}
+
+.footer a {
+    margin: 5px;
+    color: gray;
+    text-decoration: none;
+}
